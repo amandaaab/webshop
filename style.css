@@ -1,0 +1,182 @@
+body{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+#container{
+    max-width: 100%;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+}
+
+/*            HEADER           */
+.header{
+    width: 100%;
+    height: 144px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.homedecor{
+    font-size: 45px;
+    margin-top:50px;
+    margin: auto;
+    padding-top:30px;
+    color:  rgb(50, 50, 56);
+}
+
+.headerAlt{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 4em;
+    margin-bottom: 40px;
+    margin-top:10px;
+
+}
+
+.kundkonto{
+    display: flex;
+    flex-direction: row;
+}
+
+.loggaIn, .bliMedlem{
+    margin-left:12px;
+    padding:10px 11px;
+    background-color: rgb(42, 119, 136);
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.cart{
+    margin-left: 60px;
+    font-size: 30px;
+    color:rgb(0, 43, 46);
+}
+
+/*          MENY          */
+.meny{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(50, 50, 56);
+    color: white;
+}
+
+.mainmeny{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 80%;
+    margin: auto;
+}
+
+.headitem{
+ 
+ font-size: 17px;
+ cursor: pointer;
+
+}
+
+.homebox1{
+    background-image: url("img/kok1.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 50%;
+   /* margin:10px; */
+    border: 1px solid black;
+
+}
+
+.homebox2{
+    background-image: url("img/liv1.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 50%;
+   /* margin: 10px;*/
+    border: 1px solid black;
+    
+}
+
+.main1{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content:center;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    background-color: rgb(50, 50, 56);
+    color: white;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top:30px;
+}
+
+.social{
+   margin-left:20px;
+}
+
+li{
+    list-style: none;
+}
+
+.fot1, .fot2{
+    border-right: 1px solid black;
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fot3{
+    height: 150px;
+    width: 400px;
+}
+
+/*DROPDOWM MENU*/
+.dropdownmenu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 180px;
+    z-index: 1; 
+    overflow: hidden;
+}
+.dropdownmenu a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.headitem:hover .dropdownmenu {
+display: block;
+}
+
+
+
+
+
+
+@media all and (max-width: 960px){
+
+}

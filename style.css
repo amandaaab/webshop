@@ -45,7 +45,7 @@ body{
     flex-direction: row;
 }
 
-.loggaIn, .bliMedlem{
+.loggaIn, .bliMedlem, .loggaUt{
     margin-left:12px;
     padding:10px 11px;
     background-color: rgb(42, 119, 136);

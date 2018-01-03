@@ -1,10 +1,35 @@
 [
     {
         "id": 1,
-        "prodName": "Epiphone Les Paul Standard",
+        "prodName": "Himmelsk säng",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
-        "prodPrice": 6999,
-        "huvudKat": 1,
-        "underKat": 1
+        "prodPrice": 8999,
+        "huvudkategori": 1,
+        "underkategori": 1,
+        "image": "img/sovrum/bed1.png"
+    },{
+        "id": 2,
+        "prodName": "Matilda säng",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 5999,
+        "huvudkategori": 1,
+        "underkategori": 1,
+        "image": "img/sovrum/bed2.png"
+    },{
+        "id": 3,
+        "prodName": "Amanda Säng",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 2999,
+        "huvudkategori": 1,
+        "underkategori": 1,
+        "image": "img/sovrum/bed3.jpg"
+    },{
+        "id": 4,
+        "prodName": "Julia säng",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 3999,
+        "huvudkategori": 1,
+        "underkategori": 1,
+        "image": "img/sovrum/bed4.jpg"
     }
 ]

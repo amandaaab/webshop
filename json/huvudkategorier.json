@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "countryname": "Gitarr"
+        "room": "Sovrum"
     },{
         "id": 2,
-        "countryname": "Bas"
+        "room": "Vardagsrum"
     },{
         "id": 3,
-        "countryname": "Klaviatur"
+        "room": "Kök"
     },{
         "id": 4,
-        "countryname": "Slagverk"
+        "room": "Badrum"
     }
 ]

@@ -11,7 +11,7 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-/*            HEADER           */
+
 .header{
     width: 100%;
     height: 144px;
@@ -60,7 +60,7 @@ body{
     color:rgb(0, 43, 46);
 }
 
-/*          MENY          */
+
 .meny{
     display: flex;
     align-items: center;
@@ -75,15 +75,32 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    width: 57%;
+    margin: auto;
+}
+
+.menymeny{
+    display: flex;
+    align-items: center;
+    height: 60px;
     width: 80%;
     margin: auto;
 }
 
-.headitem{
+.headitem, .infoitem{
  
  font-size: 17px;
  cursor: pointer;
+ color:white;
 
+}
+
+
+
+.infoKontakt{
+    display: flex;
+    justify-content: space-between;
+    width: 21%;
 }
 
 .homebox1{
@@ -91,7 +108,6 @@ body{
     background-size: cover;
     height: 600px;
     width: 50%;
-   /* margin:10px; */
     border: 1px solid black;
 
 }
@@ -101,7 +117,6 @@ body{
     background-size: cover;
     height: 600px;
     width: 50%;
-   /* margin: 10px;*/
     border: 1px solid black;
     
 }
@@ -152,25 +167,27 @@ li{
     width: 400px;
 }
 
+
+
 /*DROPDOWM MENU*/
-.dropdownmenu {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 180px;
-    z-index: 1; 
-    overflow: hidden;
-}
-.dropdownmenu a {
-    color: black;
-    padding: 15px 20px;
-    text-decoration: none;
-    display: block;
+
+.underKategori{
+    width: 200px;
+    height: auto;
+
 }
 
-.headitem:hover .dropdownmenu {
-display: block;
+.dropdownmenu {
+    position: absolute;
+    background-color: #ffffff;
+    width: 200px;
 }
+
+
+
+
+
+
 
 
 

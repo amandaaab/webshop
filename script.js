@@ -57,6 +57,9 @@ $(document).ready(function(){
 
         loopHuvudKategori();
         loopUnderkategori();
+        loopProdukter();
+        loopSpecProdukt();
+        $(".produktWrap").hide();
         
         console.log(huvudkategori);
         console.log(kategori);
@@ -83,19 +86,79 @@ $(document).ready(function(){
 
                 for(i = 0; i < kategori.length; i++) {
                     if (kategori[i].huvudkategori == visaKategori){
-                        $(".dropdownmenu").append("<li>" + kategori[i].underkategori + "</li>")
+                        $(".dropdownmenu").append("<li><a href='#' onclick='visaVardeProdukt("+ kategori[i].id +")'>" + kategori[i].underkategori + "</li>")
                     }
-
-                    $(".underKategori").show();
-                    $(".dropdownmenu").show();
+                        $(".underKategori").show();
+                        $(".dropdownmenu").show();
 
                 }
 
             }
-
         }
 
+        function loopProdukter(){
+
+            visaVardeProdukt = function(val){
+                var visaProdukt = val;
+                console.log ("hej" + val);
+
+                $(".produktItem").html(" ");
+
+                for(var i = 0; i < produkt.length; i++){
+                    if (produkt[i].underkategori == visaProdukt){
+                        $(".homebox1").hide();
+                        $(".homebox2").hide();
+                        $(".produktWrap").append("<div class='produktItem' onclick='visaSpecProdukt("+ produkt[i].id +")'><img src='/img/sovrum/" + produkt[i].image + "'>" +  produkt[i].prodName + produkt[i].prodPrice + "</div>");
+                        $(".produktwrap").show();
+                    }
+                    $(".produkterKategori").show();
+                    $(".produkter").show();
+
+                }
+            }
+        }
+
+        function loopSpecProdukt(){
+            visaSpecProdukt = function(val){
+                var visaSpec = val;
+                console.log("spec:" + val);
+
+                //$(".").html()
+                for(var i = 0; i < produkt.length; i++){
+                    if(produkt[i].id == visaSpec){
+                        var imgProdCard = "<div class='imgProdCard'>" + "<img src='/img/sovrum/" + produkt[i].image + "'>" + "</div>";
+                        var infoH2 = "<h2>" + produkt[i].prodName + "</h2>"; 
+                        var infoP = "<p>" + produkt[i].prodDesc + "</p>";
+                        var ProdToCart = "<button class='prodToCart'>" + "Lägg till i varukorg" + "</div>";
+                        var textProdCard = "<div class='textProdcard'>" + infoH2 + infoP + ProdToCart + "</div>";
+
+                        $(".produktItem").hide();
+                        $(".produktWrap").hide();
+                        $(".specWrap").append(imgProdCard + textProdCard);
+                        $(".specWrap").show();
+                    }
+                    $(".produkterKategori").hide();
+                    $(".produkter").hide();
+                }
+            }
+        }
+
+
+
+
+
         $(".loggaUt").hide();
+        $(".loginForm").hide();
+
+        $(".loggaIn").click(function(){
+
+            $(".homebox1").hide();
+            $(".homebox2").hide();
+            $(".loginForm").show();
+
+
+        });
+
 
             //       INLOGGNING
            if(sessionStorage.saveUser != null ){
@@ -119,8 +182,9 @@ $(document).ready(function(){
    
            //          Utloggning
             $(".loggaUt").click(function(){
-                   sessionStorage.removeItem("saveUser");
+                   sessionStorage.clear();
                    location.reload();
+                   $(".main1").show();
             
             });
 

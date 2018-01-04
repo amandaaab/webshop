@@ -6,7 +6,7 @@
         "prodPrice": 8999,
         "huvudkategori": 1,
         "underkategori": 1,
-        "image": "img/sovrum/bed1.png"
+        "image": "bed1.png"
     },{
         "id": 2,
         "prodName": "Matilda säng",
@@ -14,7 +14,7 @@
         "prodPrice": 5999,
         "huvudkategori": 1,
         "underkategori": 1,
-        "image": "img/sovrum/bed2.png"
+        "image": "bed2.png"
     },{
         "id": 3,
         "prodName": "Amanda Säng",
@@ -22,7 +22,7 @@
         "prodPrice": 2999,
         "huvudkategori": 1,
         "underkategori": 1,
-        "image": "img/sovrum/bed3.jpg"
+        "image": "bed3.jpg"
     },{
         "id": 4,
         "prodName": "Julia säng",
@@ -30,6 +30,6 @@
         "prodPrice": 3999,
         "huvudkategori": 1,
         "underkategori": 1,
-        "image": "img/sovrum/bed4.jpg"
+        "image": "bed4.jpg"
     }
 ]

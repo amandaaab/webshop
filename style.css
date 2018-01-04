@@ -40,9 +40,11 @@ body{
 
 }
 
-.kundkonto{
+.kundkonto, .kundkonto a{
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    color:white;
 }
 
 .loggaIn, .bliMedlem, .loggaUt{
@@ -52,7 +54,12 @@ body{
     font-size: 16px;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
+
+
+
+
 
 .cart{
     margin-left: 60px;
@@ -181,6 +188,51 @@ li{
     position: absolute;
     background-color: #ffffff;
     width: 200px;
+}
+
+.produkterKategori{
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+.produkter{
+    position: absolute;
+    background-color: #ffffff;
+    width: 200px;
+}
+
+.produktWrap{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content:center;
+    width: 80%;
+    height: auto;
+    margin-top:50px;
+}
+
+.produktItem{
+  /*  width: 400px;
+    height: 500px;
+*/
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.meny a{
+    text-decoration: none;
+    color:white;
+}
+
+.specWrap{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    
+
 }
 
 

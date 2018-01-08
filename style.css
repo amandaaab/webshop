@@ -5,12 +5,6 @@ body{
     font-family: 'Alegreya Sans', sans-serif;
 }
 
-/*#container{
-    max-width: 100%;
-    height:auto;
-    background-color: rgb(255, 255, 255); 
-}*/
-
 
 .header{
     width: 100%;
@@ -407,6 +401,93 @@ h2{
 
 
 @media all and (max-width: 960px){
-    
+    .menymeny{
+        flex-direction: column;
+        height:auto;
+    }
+
+
+    .mainmeny{
+        flex-flow: row wrap;
+        height:auto;
+        width: 100%;
+    }
+
+    .meny{
+        height: 100px;
+    }
+
+    .infoitem{
+        padding:10px;
+        margin-left:0px;
+    }
+
+}
+
+
+@media all and (max-width: 600px){
+
+    .header{
+        justify-content: center;
+    }
+    .homedecor{
+        font-size: 33px;
+        margin-bottom: 50px;
+       
+    }
+
+    .loggaIn, .bliMedlem, .loggaUt{
+        margin-left:5px;
+        font-size: 14px;
+    }
+   
+    .meny{
+        height: 100px;
+       
+    }
+
+    .mainmeny{
+        flex-flow: row wrap;
+        justify-content: center;    
+        width: 100%;
+
+    }
+    .headitem{
+        width: 50%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+     
+    }
+    .infoitem{
+        display:none;
+    }
+
+    .dropdownmenu{
+        height: 90px;
+        width: 100%;
+        flex-flow: row wrap;
+    }
+    li a{
+       flex-flow: row wrap;
+       margin:0px 10px;
+    }
+
+    .homebox1{
+        height: 300px;
+    }
+
+    .fot1, .fot2, .fot3{
+        font-size: 12px;
+    }
+
+
+    .socialmedia{
+        flex-direction: column;
+    }
+
+
+
+   
+
 
 }

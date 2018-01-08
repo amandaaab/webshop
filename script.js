@@ -62,6 +62,7 @@ $(document).ready(function(){
             $(".main1").show();
             $(".homebox1").show();
             $(".homebox2").show();
+            $(".formmain").hide();
 
             console.log(huvudkategori);
             console.log(kategori);
@@ -95,7 +96,7 @@ $(document).ready(function(){
                     console.log ("hejsan" + val);
     
                     $(".dropdownmenu").html(" ");
-                    $(".main1").html(" ");
+                    
     
                     for(i = 0; i < kategori.length; i++) {
                         if (kategori[i].huvudkategori == val){
@@ -115,6 +116,7 @@ $(document).ready(function(){
     
                     $(".main1").html(" ");
                     $(".produktItem").html(" ");
+                    $(".formmain").hide();
 
     
                     for(var i = 0; i < produkt.length; i++){
@@ -131,6 +133,7 @@ $(document).ready(function(){
                 visaSpecProdukt = function(val){
                     console.log(val);
               $(".main1").html(" ");
+              $(".formmain").hide();
                     var spec = val;
     
                    
@@ -170,7 +173,9 @@ $(document).ready(function(){
             addToCart = function(){
 
                 $(".main1").html(" ");
+                $(".formmain").hide();
                 $(".main1").append("<h2>Varukorg</h2>");
+
             
                    var json_str = JSON.stringify(shoppingCart);
                    localStorage.shopping = json_str;
@@ -194,15 +199,18 @@ $(document).ready(function(){
         
             //                              LOGGA IN/UT
     
-    
+            
             $(".loggaUt").hide();
-            $(".loginform").hide();
+           // $(".loginform").hide();
+            $(".formmain").hide();
     
             $(".loggaIn").click(function(){
-            $(".homebox1").hide();
-            $(".homebox2").hide();
-              
-            $(".loginform").show();
+            $(".main1").html(" "); 
+           // $(".homebox1").hide();
+            //$(".homebox2").hide();
+        
+            $(".formmain").show();
+            $("form").fadeIn(600);
     
             });
     
@@ -236,7 +244,7 @@ $(document).ready(function(){
     
             function thisUserIsLoggedIn(){
                
-                $(".loginform").hide();
+                $(".formmain").hide();
                 $(".loggaIn").hide();
                 $(".bliMedlem").hide();
                 $(".loggaUt").show();

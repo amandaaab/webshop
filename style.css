@@ -57,6 +57,79 @@ body{
     text-decoration: none;
 }
 
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 40px;
+    height: 360px;
+    width: 500px;
+    border: 0.5px solid rgb(64, 135, 150);
+}
+
+.bliforgot{
+    margin-right: 270px;
+    font-size: 10px;
+    margin-bottom: -47px;
+    margin-top: 28px;
+}
+
+.loginform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    width: 80%;
+    height: 80%;
+    border: 0.5px solid rgb(64, 135, 150);
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+.mailForm, .passwordForm{
+    width: 55%;
+    margin:10px;
+    height: 28px;
+    font-family: 'Playfair Display', serif;
+    border: 3px solid rgb(240, 240, 240);
+
+}
+.mailForm{
+     margin-top:30px;
+}
+
+.buttonForm{
+    margin-top: 20px;
+    
+    width: 35%;
+    height: 35px;
+    background-color: rgb(2, 120, 133);
+    border:none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+
+}
+
+.formmain{
+    display: flex;
+    justify-content:center;
+    height: auto;
+    width: 100%;
+    background-image: url("livin.jpg");
+    background-size: cover;
+    margin-top: -60px;
+
+}
+
+
+
+
 /*         MENY        */
 .cart{
     margin-left: 60px;
@@ -71,6 +144,7 @@ body{
     width: 100%;
     background-color: rgb(50, 50, 56);
     color: white;
+    z-index: 1;
 }
 
 .mainmeny{
@@ -112,8 +186,8 @@ body{
 .homebox1{
     background-image: url("img/kok1.jpg");
     background-size: cover;
-    height: 600px;
-    width: 50%;
+    height: 800px;
+    width: 100%;
     border: 1px solid black;
 
 }
@@ -127,12 +201,21 @@ body{
     
 }
 
+.firstside{
+    width: 100%;
+    height: 530px;
+    display: flex;
+
+ 
+}
+
 .main1{
     display: flex;
-    flex-direction: row wrap;
     justify-content:center;
-    height: 1000px;
+    flex-flow: row wrap;
+    height: auto;
     width: 100%;
+    margin-bottom: 60px;
 }
 
 #footer{

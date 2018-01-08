@@ -5,11 +5,11 @@ body{
     font-family: 'Alegreya Sans', sans-serif;
 }
 
-#container{
+/*#container{
     max-width: 100%;
     height:auto;
-    background-color: rgb(255, 255, 255);
-}
+    background-color: rgb(255, 255, 255); 
+}*/
 
 
 .header{
@@ -57,16 +57,12 @@ body{
     text-decoration: none;
 }
 
-
-
-
-
+/*         MENY        */
 .cart{
     margin-left: 60px;
     font-size: 30px;
     color:rgb(0, 43, 46);
 }
-
 
 .meny{
     display: flex;
@@ -93,6 +89,10 @@ body{
     width: 80%;
     margin: auto;
 }
+.menymeny a{
+    text-decoration: none;
+    color:white;
+}
 
 .headitem, .infoitem{
  
@@ -102,14 +102,13 @@ body{
 
 }
 
-
-
 .infoKontakt{
     display: flex;
     justify-content: space-between;
     width: 21%;
 }
 
+/*          MAINCONTENT & FOOTER       */
 .homebox1{
     background-image: url("img/kok1.jpg");
     background-size: cover;
@@ -132,6 +131,8 @@ body{
     display: flex;
     flex-direction: row wrap;
     justify-content:center;
+    height: 1000px;
+    width: 100%;
 }
 
 #footer{
@@ -156,10 +157,6 @@ body{
    margin-left:20px;
 }
 
-li{
-    list-style: none;
-}
-
 .fot1, .fot2{
     border-right: 1px solid black;
     height: 150px;
@@ -176,7 +173,11 @@ li{
 
 
 
-/*DROPDOWM MENU*/
+/*    DROPDOWM MENU    */
+
+li{
+    list-style: none;
+}
 
 .underKategori{
     width: 200px;
@@ -202,38 +203,92 @@ li{
     width: 200px;
 }
 
+/*     PRODUKTNÄT     */
+
+/*main för produktnät*/
 .produktWrap{
     display: flex;
-    flex-direction: row wrap;
+    flex-flow: row wrap;
     justify-content:center;
-    width: 80%;
     height: auto;
-    margin-top:50px;
+    margin-top:20px;
+    margin-bottom:50px;
+    width: 80%;
 }
 
+/*produktdivven*/
 .produktItem{
-  /*  width: 400px;
-    height: 500px;
-*/
+    width: 400px;
+    height: 400px;
+    margin: 30px;
 }
 
+/*Bild in produktdivven*/
 img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 
-.meny a{
-    text-decoration: none;
-    color:white;
+.prisTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+h3{
+    margin-left: 10px;
+}
+
+
+/*       INFO OM PRODUKT        */
 .specWrap{
     margin-top:50px;
     display: flex;
     justify-content: center;
-    
-
+    width: 80%;
 }
+
+.imgProdCard{
+    width: 600px;
+    height: 500px;
+}
+.textProdCard{
+    width:600px;
+    height:600px;
+    margin:0px 50px;
+}
+
+.prodToCart{
+    width: 200px;
+    height: 45px;
+    background-color:rgb(18, 109, 101);
+    color:white;
+    font-size: 18px;
+    font-family:'Alegreya Sans', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*         VARUKORGEN           */
+
+.imgCartCard{
+    width: 300px;
+    height: 300px;
+}
+
+.cardInCart{
+    margin-top: 100px;
+}
+
+.cartName{
+    font-size:17px;
+}
+
+
 
 
 
@@ -247,5 +302,6 @@ img {
 
 
 @media all and (max-width: 960px){
+    
 
 }

@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "room": "Sovrum"
+        "room": "SOVRUM"
     },{
         "id": 2,
-        "room": "Vardagsrum"
+        "room": "VARDAGSRUM"
     },{
         "id": 3,
-        "room": "Kök"
+        "room": "KÖK"
     },{
         "id": 4,
-        "room": "Badrum"
+        "room": "BADRUM"
     }
 ]

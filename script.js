@@ -6,7 +6,7 @@ $(document).ready(function(){
         var produkt;
         var shoppingCart = [];
        
-           //Hämtar users.json och sparar i en variabel (users)
+           //FETCH
            fetch("json/kunder.json")
            .then(function(response) {
                return response.json();
@@ -56,13 +56,14 @@ $(document).ready(function(){
             loopProdukter();
             loopSpecProdukt();
             
-            //                                    FÖRSTASIDAN
-           
+        //                                    FÖRSTASIDAN
 
             $(".main1").show();
             $(".homebox1").show();
             $(".homebox2").show();
             $(".formmain").hide();
+            $(".dropdownmenu").hide();
+            
 
             console.log(huvudkategori);
             console.log(kategori);
@@ -70,33 +71,27 @@ $(document).ready(function(){
     
             //                               HUVUDKATEGORIERNA
             function loopHuvudKategori(){
-            //$(".main1").html(" ");
-        
+
 
                 for(var i = 0; i < huvudkategori.length; i++){
                    
                     $(".mainmeny").append("<div class='headitem'><a href='#' onclick='visaVarde("+ huvudkategori[i].id +")'>" + huvudkategori[i].room + "<i class='fa fa-angle-down' aria-hidden='true'></i></a></div>");
                     
-
                    $(".cart").click(function(){
-                    $(".cardInCart").html(" ");
+                   $(".cardInCart").html(" ");
 
                     addToCart();
 
                     });
-                    
-                  
                 }
-    
             }
     
             //                            UNDERKATEGORIERNA
             function loopUnderkategori(){
                 visaVarde = function(val){
-                    console.log ("hejsan" + val);
-    
+                   
                     $(".dropdownmenu").html(" ");
-                    
+                     console.log ("hejsan" + val);
     
                     for(i = 0; i < kategori.length; i++) {
                         if (kategori[i].huvudkategori == val){
@@ -113,16 +108,13 @@ $(document).ready(function(){
     
                 visaVardeProdukt = function(val){
                     console.log ("hej" + val);
-    
                     $(".main1").html(" ");
                     $(".produktItem").html(" ");
                     $(".formmain").hide();
 
-    
                     for(var i = 0; i < produkt.length; i++){
-                        if (produkt[i].underkategori == val){
-                           
-                        $(".main1").append("<div class='produktItem' onclick='visaSpecProdukt("+ produkt[i].id +")'><img src='./img/sovrum/" + produkt[i].image + "'>" + "<div class='prisTitle'>" + "<h3>" +  produkt[i].prodName + "</h3>" + "<h3>" + produkt[i].prodPrice + "kr" + "<h3>" + "</div>" + "</div>");
+                        if (produkt[i].underkategori == val){    
+                        $(".main1").append("<div class='produktItem' onclick='visaSpecProdukt("+ produkt[i].id +")'><img src='./img/" + produkt[i].image + "'>" + "<div class='prisTitle'>" + "<h3>" +  produkt[i].prodName + "</h3>" + "<h3>" + produkt[i].prodPrice + "kr" + "<h3>" + "</div>" + "</div>");
                         }
                     }
                 }
@@ -130,18 +122,15 @@ $(document).ready(function(){
     
             //                             SPECIFIK PRODUKTSIDA
            function loopSpecProdukt(){
-                visaSpecProdukt = function(val){
-                    console.log(val);
-              $(".main1").html(" ");
-              $(".formmain").hide();
-                    var spec = val;
-    
-                   
-
+                visaSpecProdukt = function(val){  
+                var spec = val;
+                $(".main1").html(" ");
+                $(".formmain").hide(); 
+                console.log(val);
                     for(var i = 0; i < produkt.length; i++){
                         if(produkt[i].id == spec){
 
-                            var imgProdCard = "<div class='imgProdCard'>" + "<img src='./img/sovrum/" + produkt[i].image + "'>" + "</div>";
+                            var imgProdCard = "<div class='imgProdCard'>" + "<img src='./img/" + produkt[i].image + "'>" + "</div>";
                             var infoH2 = "<h2>" + produkt[i].prodName + "</h2>"; 
                             var infoP = "<p>" + produkt[i].prodDesc + "</p>";
                             var infoPrice = "<h3>" + produkt[i].prodPrice + "kr" + "</h3>";
@@ -149,8 +138,6 @@ $(document).ready(function(){
                             var textProdCard = "<div class='textProdCard'>" + infoH2 + infoP + infoPrice + ProdToCart + "</div>";
                             
                             $(".main1").append(imgProdCard + textProdCard);
-
-                            
                             //console.log("produkt" + produkt);
                         }
                     }
@@ -158,17 +145,12 @@ $(document).ready(function(){
             }
     
             //                            VARUKORG
-    
             pushToCart = function(val){
 
                 var cart = produkt[val-1];  
                 shoppingCart.push(cart);
-               
                 console.log(cart);
-        
             }
-                
-          
                
             addToCart = function(){
 
@@ -176,64 +158,57 @@ $(document).ready(function(){
                 $(".formmain").hide();
                 $(".main1").append("<h2>Varukorg</h2>");
 
-            
                    var json_str = JSON.stringify(shoppingCart);
                    localStorage.shopping = json_str;
                    var loopItemCart = JSON.parse(localStorage.shopping);
-
     
                 for(var i = 0; i < loopItemCart.length; i++){
 
-                    var imgCartCard = "<div class='imgCartCard'>" + "<img src='./img/sovrum/" + loopItemCart[i].image + "'>" + "</div>";
+                    var imgCartCard = "<div class='imgCartCard'>" + "<img src='./img/" + loopItemCart[i].image + "'>" + "</div>";
                     var cartCardTitle = "<h2 class='cartName'>" + loopItemCart[i].prodName + "</h2>";
                     var priceCard = "<h2 class='cartName'>" + loopItemCart[i].prodPrice + "kr</h2>";
                     var cardInCart = "<div class='cardInCart'>" + imgCartCard + cartCardTitle + priceCard + "</div>";
 
                 $(".main1").append(cardInCart);
                 console.log(shoppingCart);
-                //console.log(loopItemCart);
-                
                 }
-            }
+                var frakt = 55;
+                var total = 0;
 
+                    for(var i = 0; i < loopItemCart.length; i++) {
+                        total += loopItemCart[i].prodPrice;
+                    }
+
+                total += frakt;
+                $(".main1").append("<h2 class='totalsumma'>" + "Totalsumma"  + total + "kr" + "</h3>" + "<button onClick='order()'>" + "Skicka order" + "</button>");
+            }
         
             //                              LOGGA IN/UT
-    
-            
-            $(".loggaUt").hide();
-           // $(".loginform").hide();
-            $(".formmain").hide();
-    
+                $(".loggaUt").hide();
+                $(".formmain").hide();
+
             $(".loggaIn").click(function(){
             $(".main1").html(" "); 
-           // $(".homebox1").hide();
-            //$(".homebox2").hide();
-        
             $(".formmain").show();
             $("form").fadeIn(600);
-    
             });
     
                 //                                     INLOGGNING
                if(sessionStorage.saveUser != null ){
                    thisUserIsLoggedIn();
                    }else{
-               
                        $(".buttonForm").click(function(){
                        for(var i = 0; i < users.length; i++){
-                           
                            if( $(".mailForm").val() == users[i].email && $(".passwordForm").val() == users[i].password){
-               
                                thisUserIsLoggedIn();
                                sessionStorage.saveUser = users[i].email;
                                console.log("heeeej");
                                }else{
-                                   console.log("glömt ditt lösenord");
+                                   alert("glömt ditt lösenord");
                                }
                            }
                        });
                    }
-       
                //                                        Utloggning
                 $(".loggaUt").click(function(){
                        sessionStorage.clear();
@@ -249,8 +224,5 @@ $(document).ready(function(){
                 $(".bliMedlem").hide();
                 $(".loggaUt").show();
             }
-       
-    
         }
-    
     });

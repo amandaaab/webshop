@@ -10,7 +10,7 @@
     },{
         "id": 2,
         "prodName": "Matilda säng",
-        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
         "prodPrice": 5999,
         "huvudkategori": 1,
         "underkategori": 1,
@@ -18,7 +18,7 @@
     },{
         "id": 3,
         "prodName": "Amanda Säng",
-        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
         "prodPrice": 2999,
         "huvudkategori": 1,
         "underkategori": 1,
@@ -26,10 +26,363 @@
     },{
         "id": 4,
         "prodName": "Julia säng",
-        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
         "prodPrice": 3999,
         "huvudkategori": 1,
         "underkategori": 1,
         "image": "bed4.jpg"
+    },{
+        "id": 5,
+        "prodName": "Glöd",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 399,
+        "huvudkategori": 1,
+        "underkategori": 3,
+        "image": "blamp1.jpg"
+    },{
+        "id": 6,
+        "prodName": "Klassisk",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 399,
+        "huvudkategori": 1,
+        "underkategori": 3,
+        "image": "blamp2.jpg"
+    },{
+        "id": 7,
+        "prodName": "Klotlampa",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 999,
+        "huvudkategori": 1,
+        "underkategori": 3,
+        "image": "blamp3.jpg"
+    },{
+        "id": 8,
+        "prodName": "Burkformad lampa",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 199,
+        "huvudkategori": 1,
+        "underkategori": 3,
+        "image": "blamp4.jpg"
+    },{
+        "id": 9,
+        "prodName": "Vintage",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 5999,
+        "huvudkategori": 1,
+        "underkategori": 2,
+        "image": "closet1.jpg"
+    },{
+        "id": 10,
+        "prodName": "Modern",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 2999,
+        "huvudkategori": 1,
+        "underkategori": 2,
+        "image": "closet2.jpg"
+    },{
+        "id": 11,
+        "prodName": "Vit modern",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 2999,
+        "huvudkategori": 1,
+        "underkategori": 2,
+        "image": "closet3.jpg"
+    },{
+        "id": 12,
+        "prodName": "Organiseraren",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 2999,
+        "huvudkategori": 1,
+        "underkategori": 2,
+        "image": "closet4.jpg"
+    },{
+        "id": 13,
+        "prodName": "Grått",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 299,
+        "huvudkategori": 1,
+        "underkategori": 4,
+        "image": "lakan1.jpg"
+    },{
+        "id": 14,
+        "prodName": "Blått",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 199,
+        "huvudkategori": 1,
+        "underkategori": 4,
+        "image": "lakan2.jpg"
+    },{
+        "id": 15,
+        "prodName": "Rosa mönster",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 199,
+        "huvudkategori": 1,
+        "underkategori": 4,
+        "image": "lakan3.jpg"
+    },{
+        "id": 16,
+        "prodName": "Sov gott",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 499,
+        "huvudkategori": 1,
+        "underkategori": 4,
+        "image": "lakan4.jpg"
+    },{
+        "id": 17,
+        "prodName": "Beige soffa",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 4699,
+        "huvudkategori": 2,
+        "underkategori": 5,
+        "image": "soffa1.jpg"
+    },{
+        "id": 18,
+        "prodName": "Stilren",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 9699,
+        "huvudkategori": 2,
+        "underkategori": 5,
+        "image": "soffa2.jpg"
+    },{
+        "id": 19,
+        "prodName": "Ljus soffa",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 15599,
+        "huvudkategori": 2,
+        "underkategori": 5,
+        "image": "soffa3.jpg"
+    },{
+        "id": 20,
+        "prodName": "Blå dröm",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 4699,
+        "huvudkategori": 2,
+        "underkategori": 5,
+        "image": "soffa4.jpg"
+    },{
+        "id": 21,
+        "prodName": "Marmorbord",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 1699,
+        "huvudkategori": 2,
+        "underkategori": 6,
+        "image": "sb1.jpg"
+    },{
+        "id": 22,
+        "prodName": "Sidobord",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 1699,
+        "huvudkategori": 2,
+        "underkategori": 6,
+        "image": "sb2.jpg"
+    },{
+        "id": 23,
+        "prodName": "Glasbord",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 1999,
+        "huvudkategori": 2,
+        "underkategori": 6,
+        "image": "sb3.jpg"
+    },{
+        "id": 24,
+        "prodName": "Träbord",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 1799,
+        "huvudkategori": 2,
+        "underkategori": 6,
+        "image": "sb4.jpg"
+    },{
+        "id": 25,
+        "prodName": "Lykta",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 499,
+        "huvudkategori": 2,
+        "underkategori": 7,
+        "image": "pry1.jpg"
+    },{
+        "id": 26,
+        "prodName": "Förvaring",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 199,
+        "huvudkategori": 2,
+        "underkategori": 7,
+        "image": "pry2.jpg"
+    },{
+        "id": 27,
+        "prodName": "Glaslåda",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 99,
+        "huvudkategori": 2,
+        "underkategori": 7,
+        "image": "pry3.jpg"
+    },{
+        "id": 28,
+        "prodName": "Glashylla",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 7799,
+        "huvudkategori": 2,
+        "underkategori": 7,
+        "image": "pry4.jpg"
+    },{
+        "id": 29,
+        "prodName": "Tavla 1",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 499,
+        "huvudkategori": 2,
+        "underkategori": 8,
+        "image": "tavla1.jpg"
+    },{
+        "id": 30,
+        "prodName": "Tavla 2",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 899,
+        "huvudkategori": 2,
+        "underkategori": 8,
+        "image": "tavla2.jpg"
+    },{
+        "id": 31,
+        "prodName": "Tavla 3",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 499,
+        "huvudkategori": 2,
+        "underkategori": 8,
+        "image": "tavla3.jpg"
+    },{
+        "id": 32,
+        "prodName": "Tavla 4",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 299,
+        "huvudkategori": 2,
+        "underkategori": 8,
+        "image": "tavla4.jpg"
+    },{
+        "id": 33,
+        "prodName": "Hugo bord",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 2799,
+        "huvudkategori": 3,
+        "underkategori": 9,
+        "image": "bord1.jpg"
+    },{
+        "id": 34,
+        "prodName": "Findus bord",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 2739,
+        "huvudkategori": 3,
+        "underkategori": 9,
+        "image": "bord2.jpg"
+    },{
+        "id": 35,
+        "prodName": "Wiktor bord",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 2739,
+        "huvudkategori": 3,
+        "underkategori": 9,
+        "image": "bord3.jpg"
+    },{
+        "id": 36,
+        "prodName": "Luke bord",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 6739,
+        "huvudkategori": 3,
+        "underkategori": 9,
+        "image": "bord4.jpg"
+    },{
+        "id": 37,
+        "prodName": "Luke stol",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 739,
+        "huvudkategori": 3,
+        "underkategori": 10,
+        "image": "stol1.jpg"
+    },{
+        "id": 38,
+        "prodName": "Yerik stol",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 739,
+        "huvudkategori": 3,
+        "underkategori": 10,
+        "image": "stol2.jpg"
+    },{
+        "id": 39,
+        "prodName": "Simo stol",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 739,
+        "huvudkategori": 3,
+        "underkategori": 10,
+        "image": "stol3.jpg"
+    },{
+        "id": 40,
+        "prodName": "Timo stol",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 339,
+        "huvudkategori": 3,
+        "underkategori": 10,
+        "image": "stol4.jpg"
+    },{
+        "id": 41,
+        "prodName": "Lampa Alan",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 739,
+        "huvudkategori": 3,
+        "underkategori": 11,
+        "image": "tak1.jpg"
+    },{
+        "id": 42,
+        "prodName": "Lampa Benji",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 539,
+        "huvudkategori": 3,
+        "underkategori": 11,
+        "image": "tak2.jpg"
+    },{
+        "id": 43,
+        "prodName": "Lampa Benn",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 739,
+        "huvudkategori": 3,
+        "underkategori": 11,
+        "image": "tak3.jpg"
+    },{
+        "id": 44,
+        "prodName": "Lampa Nine",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 739,
+        "huvudkategori": 3,
+        "underkategori": 11,
+        "image": "tak4.jpg"
+    },{
+        "id": 45,
+        "prodName": "Handuk",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 39,
+        "huvudkategori": 3,
+        "underkategori": 12,
+        "image": "textil1.jpg"
+    },{
+        "id": 46,
+        "prodName": "Duk mönster",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 199,
+        "huvudkategori": 3,
+        "underkategori": 12,
+        "image": "textil2.jpg"
+    },{
+        "id": 47,
+        "prodName": "Läder",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 79,
+        "huvudkategori": 3,
+        "underkategori": 12,
+        "image": "textil3.jpg"
+    },{
+        "id": 48,
+        "prodName": "Till din gryta",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 139,
+        "huvudkategori": 3,
+        "underkategori": 12,
+        "image": "textil4.jpg"
     }
+
 ]

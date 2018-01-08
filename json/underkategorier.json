@@ -3,7 +3,6 @@
         "id": 1,
         "underkategori": "Sängar",
         "huvudkategori": 1
-        
     },{
         "id": 2,
         "underkategori": "Garderober",
@@ -16,5 +15,37 @@
         "id": 4,
         "underkategori": "Påslakan",
         "huvudkategori": 1
+    },{
+        "id": 5,
+        "underkategori": "Soffa",
+        "huvudkategori": 2
+    },{
+        "id": 6,
+        "underkategori": "Soffbord",
+        "huvudkategori": 2
+    },{
+        "id": 7,
+        "underkategori": "Prydnader",
+        "huvudkategori": 2
+    },{
+        "id": 8,
+        "underkategori": "Tavlor",
+        "huvudkategori": 2
+    },{
+        "id": 9,
+        "underkategori": "Bord",
+        "huvudkategori": 3
+    },{
+        "id": 10,
+        "underkategori": "Stolar",
+        "huvudkategori": 3
+    },{
+        "id": 11,
+        "underkategori": "Taklampa",
+        "huvudkategori": 3
+    },{
+        "id": 12,
+        "underkategori": "Kökstextil",
+        "huvudkategori": 3
     }
 ]

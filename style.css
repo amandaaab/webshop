@@ -27,7 +27,7 @@ body{
     margin-top:50px;
     margin: auto;
     padding-top:30px;
-    color:  rgb(50, 50, 56);
+    color:rgb(0, 43, 46);
 }
 
 .headerAlt{
@@ -184,22 +184,40 @@ form{
 
 /*          MAINCONTENT & FOOTER       */
 .homebox1{
-    background-image: url("img/kok1.jpg");
+    background-image: url("2.jpg");
     background-size: cover;
-    height: 800px;
+    height: 500px;
     width: 100%;
-    border: 1px solid black;
+    margin-bottom: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-}
-
-.homebox2{
-    background-image: url("img/liv1.jpg");
-    background-size: cover;
-    height: 600px;
-    width: 50%;
-    border: 1px solid black;
     
+
 }
+
+.testfront{
+    background-color: rgba(255, 255, 255, 0.774);
+    width: 550px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    color:rgb(0, 43, 46);
+
+}
+.slogan{
+    font-size: 48px;
+    text-align: center;
+}
+.slogan2{
+    font-size: 25px;
+}
+
+
 
 .firstside{
     width: 100%;
@@ -258,33 +276,37 @@ form{
 
 /*    DROPDOWM MENU    */
 
+li a{
+    list-style: none;
+    margin:0px 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
 li{
     list-style: none;
+    margin-top: 10px;
 }
 
 .underKategori{
-    width: 200px;
-    height: auto;
-
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .dropdownmenu {
-    position: absolute;
-    background-color: #ffffff;
-    width: 200px;
+    position: relative;
+    background-color: rgb(222, 244, 245);
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 57px;
 }
 
-.produkterKategori{
-    width: 200px;
-    height: auto;
-    position: absolute;
-}
 
-.produkter{
-    position: absolute;
-    background-color: #ffffff;
-    width: 200px;
-}
 
 /*     PRODUKTNÄT     */
 
@@ -302,7 +324,7 @@ li{
 /*produktdivven*/
 .produktItem{
     width: 400px;
-    height: 400px;
+    height: 350px;
     margin: 30px;
 }
 

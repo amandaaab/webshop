@@ -5,6 +5,8 @@ $(document).ready(function(){
         var kategori;
         var produkt;
         var shoppingCart = [];
+        var admin = "Amanda";
+        var apass = "pass";
        
            //FETCH
            fetch("json/kunder.json")
@@ -71,7 +73,6 @@ $(document).ready(function(){
     
             //                               HUVUDKATEGORIERNA
             function loopHuvudKategori(){
-
 
                 for(var i = 0; i < huvudkategori.length; i++){
                    
@@ -224,5 +225,52 @@ $(document).ready(function(){
                 $(".bliMedlem").hide();
                 $(".loggaUt").show();
             }
+    }
+
+
+
+    //     ADMIN
+
+    $(".adminMeny").hide();
+
+    if(sessionStorage.admin != null){
+        adminIsLoggedIn();
+    } else{
+
+    $(".adminLoginB").click(function(){
+        if(admin === $(".adminLogin").val() && apass === $(".adminPass").val()){
+            adminIsLoggedIn();
+            console.log("rätt");
+             }else {
+                console.log("inte rätt")
+             }
+            
+         })};
+
+         $(".loggaUtAdmin").click(function(){
+            sessionStorage.clear();
+            location.reload();
+        });
+
+        function adminIsLoggedIn(){
+            sessionStorage.admin = "Amanda Bengtsson";
+            $(".mainAdmin").append("<h1 class='adminName'>" + "Välkommen" + "<br>" + sessionStorage.admin + "</h1>");
+            $(".adminForm").hide();
+            $(".adminMeny").show();
+            $(".mainAdmin").fadeIn(600);
         }
+
+        $("#navItem1").click(function(){ 
+            $(".adminName").hide();  
+            $(".kund").html(" ");
+
+            for(var i = 0; i < users.length; i++){  
+              
+                $(".mainAdmin").append("<div class='kund'>" + "<h1>" + users[i].email + "<br>" + "</h1>" + "</div>");
+                $(".kund").show();
+            }
+
+        });
+
+
     });

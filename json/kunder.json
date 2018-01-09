@@ -7,5 +7,30 @@
         "id": 2,
         "email": "test",
         "password": "testar"
+    },{
+        "id": 3,
+        "email": "kund1@.se",
+        "password": "testar"
+    },{
+        "id": 4,
+        "email": "kund2@.se",
+        "password": "testar"
+    },{
+        "id": 5,
+        "email": "kund3@.se",
+        "password": "testar"
+    },{
+        "id": 6,
+        "email": "kund4@.se",
+        "password": "testar"
+    },{
+        "id": 7,
+        "email": "kund5@.se",
+        "password": "testar"
+    },{
+        "id": 8,
+        "email": "kund6@.se",
+        "password": "testar"
     }
+
 ]

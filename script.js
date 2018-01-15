@@ -60,24 +60,38 @@ $(document).ready(function(){
             
         //                                    FÖRSTASIDAN
 
+$(".dropdownmenu").hide(); 
+$(".formmain").hide();
+        function showStart(){
+            $(".kundvagn").hide();
             $(".main1").show();
             $(".homebox1").show();
-            $(".homebox2").show();
-            $(".formmain").hide();
-            $(".dropdownmenu").hide();
+           
             
+            }
+
+            showStart();
 
             console.log(huvudkategori);
             console.log(kategori);
             console.log(users);
+
+            $(".headitem").click(function(){
+                
+                showStart();
+            });
     
             //                               HUVUDKATEGORIERNA
             function loopHuvudKategori(){
 
                 for(var i = 0; i < huvudkategori.length; i++){
+
+                   
+                 
+                    $(".main1").show();
                    
                     $(".mainmeny").append("<div class='headitem'><a href='#' onclick='visaVarde("+ huvudkategori[i].id +")'>" + huvudkategori[i].room + "<i class='fa fa-angle-down' aria-hidden='true'></i></a></div>");
-                    
+                
                    $(".cart").click(function(){
                    $(".cardInCart").html(" ");
 
@@ -157,8 +171,8 @@ $(document).ready(function(){
 
                 $(".main1").html(" ");
                 $(".formmain").hide();
-                $(".main1").append("<h2>Varukorg</h2>");
-
+                $(".main1").append("<div class='kundvagn'><h2>" +"Varukorg" + "</h2></div>");
+                
                    var json_str = JSON.stringify(shoppingCart);
                    localStorage.shopping = json_str;
                    var loopItemCart = JSON.parse(localStorage.shopping);
@@ -170,7 +184,7 @@ $(document).ready(function(){
                     var priceCard = "<h2 class='cartName'>" + loopItemCart[i].prodPrice + "kr</h2>";
                     var cardInCart = "<div class='cardInCart'>" + imgCartCard + cartCardTitle + priceCard + "</div>";
 
-                $(".main1").append(cardInCart);
+                $(".kundvagn").append(cardInCart);
                 console.log(shoppingCart);
                 }
                 var frakt = 55;
@@ -181,8 +195,10 @@ $(document).ready(function(){
                     }
 
                 total += frakt;
-                $(".main1").append("<h2 class='totalsumma'>" + "Totalsumma"  + total + "kr" + "</h3>" + "<button onClick='order()'>" + "Skicka order" + "</button>");
+                $(".kundvagn").append("<span class='summa'><h3 class='totalsumma'>" + "Totalsumma (ink. 55kr frakt)" + "</h3>" + "<h2 class='total'>" + total + "kr" + "</h2></span>" + "<button class='sendOrder' onClick='order()'>" + "Skicka order" + "</button>");
             }
+
+
         
             //                              LOGGA IN/UT
                 $(".loggaUt").hide();
@@ -199,14 +215,20 @@ $(document).ready(function(){
                    thisUserIsLoggedIn();
                    }else{
                        $(".buttonForm").click(function(){
+                        var isvalid = false;
                        for(var i = 0; i < users.length; i++){
                            if( $(".mailForm").val() == users[i].email && $(".passwordForm").val() == users[i].password){
                                thisUserIsLoggedIn();
                                sessionStorage.saveUser = users[i].email;
                                console.log("heeeej");
-                               }else{
-                                   alert("glömt ditt lösenord");
+                               isvalid = true;
+                               break;
                                }
+
+                           }
+
+                           if(!isvalid) {
+                            alert("glömt ditt lösenord");
                            }
                        });
                    }

@@ -339,12 +339,7 @@ h3{
 
 
 /*       INFO OM PRODUKT        */
-.specWrap{
-    margin-top:50px;
-    display: flex;
-    justify-content: center;
-    width: 80%;
-}
+
 
 .imgProdCard{
     width: 600px;
@@ -358,11 +353,14 @@ h3{
 
 .prodToCart{
     width: 200px;
-    height: 45px;
+    height: 0px auto;
+    padding: 20px 5px;
     background-color:rgb(18, 109, 101);
+    cursor: pointer;
     color:white;
     font-size: 18px;
     font-family:'Alegreya Sans', sans-serif;
+    border-style: none;
     font-weight: bold;
 }
 
@@ -375,15 +373,41 @@ h2{
 
 .imgCartCard{
     width: 300px;
-    height: 300px;
+    height: 290px;
 }
 
 .cardInCart{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .cartName{
     font-size:17px;
+}
+
+.totalsumma{
+    font-size: 18px;
+}
+
+.total{
+     margin-top:-15px;
+     margin-bottom: 0px;
+}
+
+.summa{
+   
+}
+
+.sendOrder{
+
+    color: white;
+    background-color:rgb(18, 109, 101);
+    width:140px;
+    height: 20px auto;
+    padding: 12px 8px;
+    font-size: 17px;
+    cursor: pointer;
+    border-style: none;
+
 }
 
 /*   ADMIN       */

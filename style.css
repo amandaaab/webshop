@@ -48,6 +48,19 @@ body{
     text-decoration: none;
 }
 
+.loggaUt:active{
+    background-color: rgb(27, 101, 116);
+
+}
+
+.loggaIn:active{
+    background-color: rgb(27, 101, 116);
+}
+
+.bliMedlem:active{
+    background-color: rgb(27, 101, 116);
+}
+
 form{
     display: flex;
     justify-content: center;
@@ -112,6 +125,7 @@ form{
     margin-left: 60px;
     font-size: 30px;
     color:rgb(0, 43, 46);
+    cursor: pointer;
 }
 
 .meny{
@@ -149,6 +163,11 @@ form{
  font-size: 17px;
  cursor: pointer;
  color:white;
+}
+
+.headitem:hover{
+    color: white;
+    font-weight: bolder;
 }
 
 .infoKontakt{
@@ -195,6 +214,7 @@ form{
     flex-flow: row wrap;
     height: auto;
     width: 100%;
+    height: 0px auto;
     margin-bottom: 60px;
 }
 
@@ -239,7 +259,7 @@ li a{
     margin:0px 60px;
     text-decoration: none;
     color: black;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 li{
@@ -252,11 +272,11 @@ li{
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: rgb(222, 237, 245);
 }
 
 .dropdownmenu {
     position: relative;
-    background-color: rgb(222, 237, 245);
     width: 80%;
     display: flex;
     justify-content:center;
@@ -293,8 +313,27 @@ h3{
 
 .textProdCard{
     width:600px;
-    height:600px;
-    margin:0px 50px;
+    height:500px;
+    text-align: center;
+    margin-top:70px;
+    margin: 0px 50px;
+}
+
+.textProdCard h2{
+    margin-top: 70px;
+}
+
+.textProdCard p{
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.textProdCard h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: rgb(170, 2, 30);
+
 }
 
 .prodToCart{
@@ -308,6 +347,11 @@ h3{
     font-family:'Alegreya Sans', sans-serif;
     border-style: none;
     font-weight: bold;
+    margin: auto;
+}
+
+.prodToCart:active{
+    background-color: rgb(27, 101, 116);
 }
 
 h2{
@@ -330,11 +374,13 @@ h2{
 
 .totalsumma{
     font-size: 18px;
+   
 }
 
 .total{
      margin-top:-15px;
-     margin-bottom: 0px;
+     margin-bottom: 0px; 
+     color: rgb(170, 2, 30);
 }
 
 .sendOrder{
@@ -346,6 +392,10 @@ h2{
     font-size: 17px;
     cursor: pointer;
     border-style: none;
+}
+
+.sendOrder:active{
+    background-color: rgb(27, 101, 116);
 }
 /*   ADMIN       */
 .mainAdmin{
@@ -487,6 +537,7 @@ border: 0.5px solid rgb(64, 135, 150);
     .homedecor{
         font-size: 33px;
         margin-bottom: 50px;
+        margin-left: 35px;
     }
 
     .loggaIn, .bliMedlem, .loggaUt{
@@ -515,6 +566,7 @@ border: 0.5px solid rgb(64, 135, 150);
     .dropdownmenu{
         height: 90px;
         width: 100%;
+        margin-left: -35px;
         flex-flow: row wrap;
     }
 
@@ -529,9 +581,18 @@ border: 0.5px solid rgb(64, 135, 150);
 
     .fot1, .fot2, .fot3{
         font-size: 12px;
+        margin-left: -30px;
     }
 
     .socialmedia{
         flex-direction: column;
+    }
+
+    .social{
+        margin-top:0px;
+     }
+
+     .textProdCard{
+         margin-top: -20px;
     }
 }

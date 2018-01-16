@@ -8,7 +8,7 @@ $(document).ready(function(){
         var admin = "Amanda";
         var apass = "pass";
        
-        //FETCH
+//      fetchar
         fetch("json/kunder.json")
         .then(function(response) {
             return response.json(); 
@@ -48,14 +48,14 @@ $(document).ready(function(){
             loopProdukter();
             loopSpecProdukt();
             
-        //     FÖRSTASIDAN
+// Start
             $(".main1").show();
             $(".homebox1").show();
             $(".homebox2").show();
             $(".formmain").hide();
             $(".dropdownmenu").hide();
     
-        //     HUVUDKATEGORIERNA
+//Loprar huvudkategorier
             function loopHuvudKategori(){
 
                 for(var i = 0; i < huvudkategori.length; i++){
@@ -68,7 +68,7 @@ $(document).ready(function(){
                 }
             }
     
-        //    UNDERKATEGORIERNA
+//    lopar underkategorier
             function loopUnderkategori(){
                 visaVarde = function(val){
                     $(".dropdownmenu").html(" ");
@@ -83,9 +83,8 @@ $(document).ready(function(){
                 }
            }
               
-        //         PRODUKTERNA
+//         Lopar produkterna
            function loopProdukter(){
-    
                 visaVardeProdukt = function(val){
                     $(".main1").html(" ");
                     $(".produktItem").html(" ");
@@ -99,9 +98,8 @@ $(document).ready(function(){
                 }
             }
     
-        //            SPECIFIK PRODUKTSIDA
+//   Produktsida (info om produkt)
            function loopSpecProdukt(){
-
                 visaSpecProdukt = function(val){  
                 var spec = val;
                 $(".main1").html(" ");
@@ -122,11 +120,11 @@ $(document).ready(function(){
                 }
             }
     
-            //          VARUKORG
+//          Varukorg
             pushToCart = function(val){
-
                 var cart = produkt[val-1];  
                 shoppingCart.push(cart);
+                alert("Din vara har lagts till i kundvagnen");
             }
                
             addToCart = function(){
@@ -166,18 +164,17 @@ $(document).ready(function(){
                 $("form").fadeIn(600);
             }
         
-            //         LOGGA IN/UT
+//      LOGGA IN/UT
             $(".loggaUt").hide();
             $(".formmain").hide();
 
             $(".loggaIn").click(function(){
-
             $(".main1").html(" "); 
             $(".formmain").show();
             $("form").fadeIn(600);
             });
     
-            //       INLOGGNING
+//       INLOGGNING
                if(sessionStorage.saveUser != null ){
                    thisUserIsLoggedIn();
                    }else {
@@ -196,7 +193,7 @@ $(document).ready(function(){
                            }
                        });
                    }
-            //        Utloggning
+//        Utloggning
                 $(".loggaUt").click(function(){
                        sessionStorage.clear();
                        location.reload();
@@ -211,8 +208,7 @@ $(document).ready(function(){
             }
     }
 
-    //     ADMIN
-
+//     ADMIN
     $(".adminMeny").hide();
 
     if(sessionStorage.admin != null){

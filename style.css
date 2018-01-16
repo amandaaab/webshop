@@ -5,7 +5,6 @@ body{
     font-family: 'Alegreya Sans', sans-serif;
 }
 
-
 .header{
     width: 100%;
     height: 144px;
@@ -13,7 +12,6 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Playfair Display', serif;
-
 }
 
 .homedecor{
@@ -31,7 +29,6 @@ body{
     margin-right: 4em;
     margin-bottom: 40px;
     margin-top:10px;
-
 }
 
 .kundkonto, .kundkonto a{
@@ -60,14 +57,7 @@ form{
     margin-top: 40px;
     height: 360px;
     width: 500px;
-    border: 0.5px solid rgb(64, 135, 150);
-}
-
-.bliforgot{
-    margin-right: 270px;
-    font-size: 10px;
-    margin-bottom: -47px;
-    margin-top: 28px;
+    border: 0.5px solid rgb(42, 119, 136);
 }
 
 .loginform{
@@ -78,10 +68,9 @@ form{
     background-color: rgb(243, 243, 243);
     width: 80%;
     height: 80%;
-    border: 0.5px solid rgb(64, 135, 150);
+    border: 0.5px solid rgb(42, 119, 136);
     font-size: 22px;
     font-weight: bold;
-    
 }
 .mailForm, .passwordForm{
     width: 55%;
@@ -99,14 +88,13 @@ form{
     margin-top: 20px;
     width: 35%;
     height: 35px;
-    background-color: rgb(2, 120, 133);
+    background-color: rgb(42, 119, 136);
     border:none;
     color: white;
     font-weight: bold;
     cursor: pointer;
     font-family: 'Playfair Display', serif;
     font-size: 16px;
-
 }
 
 .formmain{
@@ -119,10 +107,6 @@ form{
     margin-top: -60px;
 
 }
-
-
-
-
 /*         MENY        */
 .cart{
     margin-left: 60px;
@@ -162,11 +146,9 @@ form{
 }
 
 .headitem, .infoitem{
- 
  font-size: 17px;
  cursor: pointer;
  color:white;
-
 }
 
 .infoKontakt{
@@ -174,7 +156,6 @@ form{
     justify-content: space-between;
     width: 21%;
 }
-
 /*          MAINCONTENT & FOOTER       */
 .homebox1{
     background-image: url("2.jpg");
@@ -185,9 +166,6 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
-
 }
 
 .testfront{
@@ -200,24 +178,15 @@ form{
     flex-direction: column;
     font-family: 'Playfair Display', serif;
     color:rgb(0, 43, 46);
-
 }
+
 .slogan{
     font-size: 48px;
     text-align: center;
 }
+
 .slogan2{
     font-size: 25px;
-}
-
-
-
-.firstside{
-    width: 100%;
-    height: 530px;
-    display: flex;
-
- 
 }
 
 .main1{
@@ -264,11 +233,7 @@ form{
     height: 150px;
     width: 400px;
 }
-
-
-
 /*    DROPDOWM MENU    */
-
 li a{
     list-style: none;
     margin:0px 60px;
@@ -299,29 +264,13 @@ li{
     height: 57px;
 }
 
-
-
-/*     PRODUKTNÄT     */
-
-/*main för produktnät*/
-.produktWrap{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:center;
-    height: auto;
-    margin-top:20px;
-    margin-bottom:50px;
-    width: 80%;
-}
-
-/*produktdivven*/
+/*  produktdiv  */
 .produktItem{
     width: 400px;
     height: 350px;
     margin: 30px;
 }
 
-/*Bild in produktdivven*/
 img {
     width: 100%;
     height: 100%;
@@ -336,15 +285,12 @@ img {
 h3{
     margin-left: 10px;
 }
-
-
 /*       INFO OM PRODUKT        */
-
-
 .imgProdCard{
     width: 600px;
     height: 500px;
 }
+
 .textProdCard{
     width:600px;
     height:600px;
@@ -354,8 +300,8 @@ h3{
 .prodToCart{
     width: 200px;
     height: 0px auto;
-    padding: 20px 5px;
-    background-color:rgb(18, 109, 101);
+    padding: 15px 5px;
+    background-color:rgb(42, 119, 136);
     cursor: pointer;
     color:white;
     font-size: 18px;
@@ -368,9 +314,7 @@ h2{
     font-size: 40px;
     font-family: 'Alegreya Sans', sans-serif;
 }
-
 /*         VARUKORGEN           */
-
 .imgCartCard{
     width: 300px;
     height: 290px;
@@ -393,32 +337,23 @@ h2{
      margin-bottom: 0px;
 }
 
-.summa{
-   
-}
-
 .sendOrder{
-
     color: white;
-    background-color:rgb(18, 109, 101);
+    background-color:rgb(42, 119, 136);
     width:140px;
     height: 20px auto;
     padding: 12px 8px;
     font-size: 17px;
     cursor: pointer;
     border-style: none;
-
 }
-
 /*   ADMIN       */
-
 .mainAdmin{
     display: flex;
     justify-content: center;
     font-family: 'Playfair Display', serif;
     widows: 100%;
     min-height:300px;
-
 }
 
 .loggaUtAdmin{
@@ -429,8 +364,6 @@ h2{
     color: rgb(65, 65, 65);
     cursor: pointer;
     text-decoration: none;
-   
-
 }
 
 .adminForm{
@@ -453,10 +386,9 @@ border: 0.5px solid rgb(64, 135, 150);
     background-color: rgb(243, 243, 243);
     width: 80%;
     height: 80%;
-    border: 0.5px solid rgb(64, 135, 150);
+    border: 0.5px solid rgb(42, 119, 136);
     font-size: 22px;
     font-weight: bold;
-
 }
 
 .adminLogin, .adminPass{
@@ -465,7 +397,6 @@ border: 0.5px solid rgb(64, 135, 150);
     height: 28px;
     font-family: 'Playfair Display', serif;
     border: 3px solid rgb(240, 240, 240);
-
 }
 
 .textAdminLogin{
@@ -473,34 +404,32 @@ border: 0.5px solid rgb(64, 135, 150);
 }
 
 .adminLoginB{
-width: 35%;
-height: 30px;
-margin:20px;    
-background-color: rgb(2, 120, 133);
-border:none;
-color: white;
-font-weight: bold;
-cursor: pointer;
-font-family: 'Playfair Display', serif;
-font-size: 16px;
+    width: 35%;
+    height: 30px;
+    margin:20px;    
+    background-color: rgb(42, 119, 136);
+    border:none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
 }
 
 .inputs{
     display: flex;
     justify-content: center;
-    align-items: center; 
-   
+    align-items: center;   
 }
 
 .adminMeny{
     width: 100%;
     height:70px;
-    background-color: rgb(2, 120, 133);
+    background-color: rgb(42, 119, 136);
     margin-top:20px;
     display: flex;
     justify-content: center;
     align-items:center;
-
 }
 
 .aHolder{
@@ -514,6 +443,7 @@ font-size: 16px;
     font-size: 20px;
     text-decoration:none;
     color:white;
+    cursor: pointer;
 }
 
 .adminName{
@@ -522,19 +452,14 @@ font-size: 16px;
 }
 
 .kund{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    height:300px auto;
 }
-
-
 
 @media all and (max-width: 960px){
     .menymeny{
         flex-direction: column;
         height:auto;
     }
-
 
     .mainmeny{
         flex-flow: row wrap;
@@ -553,17 +478,15 @@ font-size: 16px;
 
 }
 
-
-
 @media all and (max-width: 600px){
 
     .header{
         justify-content: center;
     }
+
     .homedecor{
         font-size: 33px;
         margin-bottom: 50px;
-       
     }
 
     .loggaIn, .bliMedlem, .loggaUt{
@@ -573,20 +496,17 @@ font-size: 16px;
    
     .meny{
         height: 100px;
-       
     }
 
     .mainmeny{
         flex-flow: row wrap;
         justify-content: center;    
         width: 100%;
-
     }
     .headitem{
         width: 50%;
         margin-top: 5px;
         margin-bottom: 5px;
-     
     }
     .infoitem{
         display:none;
@@ -597,6 +517,7 @@ font-size: 16px;
         width: 100%;
         flex-flow: row wrap;
     }
+
     li a{
        flex-flow: row wrap;
        margin:0px 10px;
@@ -610,14 +531,7 @@ font-size: 16px;
         font-size: 12px;
     }
 
-
     .socialmedia{
         flex-direction: column;
     }
-
-
-
-   
-
-
 }

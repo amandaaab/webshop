@@ -47,5 +47,21 @@
         "id": 12,
         "underkategori": "Kökstextil",
         "huvudkategori": 3
+    },{
+        "id": 13,
+        "underkategori": "Speglar",
+        "huvudkategori": 4
+    },{
+        "id": 14,
+        "underkategori": "Mattor",
+        "huvudkategori": 4
+    },{
+        "id": 15,
+        "underkategori": "Duschdraperi",
+        "huvudkategori": 4
+    },{
+        "id": 16,
+        "underkategori": "Handdukar",
+        "huvudkategori": 4
     }
 ]

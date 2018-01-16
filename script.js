@@ -8,28 +8,22 @@ $(document).ready(function(){
         var admin = "Amanda";
         var apass = "pass";
        
-           //FETCH
-           fetch("json/kunder.json")
-           .then(function(response) {
-               return response.json();
-               
-           })
-           .then(function(ourUsers) {
-               users = ourUsers;
-               console.log(users);
-               
-           });
-    
-           fetch("json/huvudkategorier.json")
-           .then(function(response) {
-               return response.json();
-           })
-       
-           .then(function(huvud) {
-               huvudkategori = huvud;
-              
+        //FETCH
+        fetch("json/kunder.json")
+        .then(function(response) {
+            return response.json(); 
+        })
+        .then(function(ourUsers) {
+            users = ourUsers;
         });
-    
+
+        fetch("json/huvudkategorier.json")
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(huvud) {
+            huvudkategori = huvud;
+        });
     
         fetch("json/underkategorier.json")
         .then(function(response) {
@@ -37,7 +31,6 @@ $(document).ready(function(){
         })
          .then(function(under) {
             kategori = under;
-    
         });
     
         fetch("json/produkter.json")
@@ -46,68 +39,40 @@ $(document).ready(function(){
         })
          .then(function(item) {
             produkt = item;
-            console.log(produkt);
             allScriptCode();
-            
         });
     
         function allScriptCode(){
-    
             loopHuvudKategori();
             loopUnderkategori();
             loopProdukter();
             loopSpecProdukt();
             
-        //                                    FÖRSTASIDAN
-
-$(".dropdownmenu").hide(); 
-$(".formmain").hide();
-        function showStart(){
-            $(".kundvagn").hide();
+        //     FÖRSTASIDAN
             $(".main1").show();
             $(".homebox1").show();
-           
-            
-            }
-
-            showStart();
-
-            console.log(huvudkategori);
-            console.log(kategori);
-            console.log(users);
-
-            $(".headitem").click(function(){
-                
-                showStart();
-            });
+            $(".homebox2").show();
+            $(".formmain").hide();
+            $(".dropdownmenu").hide();
     
-            //                               HUVUDKATEGORIERNA
+        //     HUVUDKATEGORIERNA
             function loopHuvudKategori(){
 
                 for(var i = 0; i < huvudkategori.length; i++){
-
-                   
-                 
-                    $(".main1").show();
-                   
                     $(".mainmeny").append("<div class='headitem'><a href='#' onclick='visaVarde("+ huvudkategori[i].id +")'>" + huvudkategori[i].room + "<i class='fa fa-angle-down' aria-hidden='true'></i></a></div>");
-                
+                    
                    $(".cart").click(function(){
                    $(".cardInCart").html(" ");
-
                     addToCart();
-
                     });
                 }
             }
     
-            //                            UNDERKATEGORIERNA
+        //    UNDERKATEGORIERNA
             function loopUnderkategori(){
                 visaVarde = function(val){
-                   
                     $(".dropdownmenu").html(" ");
-                     console.log ("hejsan" + val);
-    
+
                     for(i = 0; i < kategori.length; i++) {
                         if (kategori[i].huvudkategori == val){
                             $(".dropdownmenu").append("<li><a href='#' onclick='visaVardeProdukt("+ kategori[i].id +")'>" + kategori[i].underkategori + "</li>")
@@ -118,11 +83,10 @@ $(".formmain").hide();
                 }
            }
               
-            //                                PRODUKTERNA
+        //         PRODUKTERNA
            function loopProdukter(){
     
                 visaVardeProdukt = function(val){
-                    console.log ("hej" + val);
                     $(".main1").html(" ");
                     $(".produktItem").html(" ");
                     $(".formmain").hide();
@@ -135,36 +99,34 @@ $(".formmain").hide();
                 }
             }
     
-            //                             SPECIFIK PRODUKTSIDA
+        //            SPECIFIK PRODUKTSIDA
            function loopSpecProdukt(){
+
                 visaSpecProdukt = function(val){  
                 var spec = val;
                 $(".main1").html(" ");
                 $(".formmain").hide(); 
-                console.log(val);
+
                     for(var i = 0; i < produkt.length; i++){
                         if(produkt[i].id == spec){
-
                             var imgProdCard = "<div class='imgProdCard'>" + "<img src='./img/" + produkt[i].image + "'>" + "</div>";
                             var infoH2 = "<h2>" + produkt[i].prodName + "</h2>"; 
                             var infoP = "<p>" + produkt[i].prodDesc + "</p>";
                             var infoPrice = "<h3>" + produkt[i].prodPrice + "kr" + "</h3>";
                             var ProdToCart = "<button class='prodToCart'onClick='pushToCart(" + produkt[i].id + ")'>" + "LÄGG TILL I VARUKORG" + "</div>";
                             var textProdCard = "<div class='textProdCard'>" + infoH2 + infoP + infoPrice + ProdToCart + "</div>";
-                            
+            
                             $(".main1").append(imgProdCard + textProdCard);
-                            //console.log("produkt" + produkt);
                         }
                     }
                 }
             }
     
-            //                            VARUKORG
+            //          VARUKORG
             pushToCart = function(val){
 
                 var cart = produkt[val-1];  
                 shoppingCart.push(cart);
-                console.log(cart);
             }
                
             addToCart = function(){
@@ -184,9 +146,9 @@ $(".formmain").hide();
                     var priceCard = "<h2 class='cartName'>" + loopItemCart[i].prodPrice + "kr</h2>";
                     var cardInCart = "<div class='cardInCart'>" + imgCartCard + cartCardTitle + priceCard + "</div>";
 
-                $(".kundvagn").append(cardInCart);
-                console.log(shoppingCart);
+                    $(".kundvagn").append(cardInCart);
                 }
+                
                 var frakt = 55;
                 var total = 0;
 
@@ -195,49 +157,49 @@ $(".formmain").hide();
                     }
 
                 total += frakt;
-                $(".kundvagn").append("<span class='summa'><h3 class='totalsumma'>" + "Totalsumma (ink. 55kr frakt)" + "</h3>" + "<h2 class='total'>" + total + "kr" + "</h2></span>" + "<button class='sendOrder' onClick='order()'>" + "Skicka order" + "</button>");
+                    $(".kundvagn").append("<span class='summa'><h3 class='totalsumma'>" + "Totalsumma (ink. 55kr frakt)" + "</h3>" + "<h2 class='total'>" + total + "kr" + "</h2></span>" + "<button class='sendOrder' onClick='order()'>" + "Skicka order" + "</button>");
             }
 
-
+            order = function(){
+                $(".main1").html(" "); 
+                $(".formmain").show();
+                $("form").fadeIn(600);
+            }
         
-            //                              LOGGA IN/UT
-                $(".loggaUt").hide();
-                $(".formmain").hide();
+            //         LOGGA IN/UT
+            $(".loggaUt").hide();
+            $(".formmain").hide();
 
             $(".loggaIn").click(function(){
+
             $(".main1").html(" "); 
             $(".formmain").show();
             $("form").fadeIn(600);
             });
     
-                //                                     INLOGGNING
+            //       INLOGGNING
                if(sessionStorage.saveUser != null ){
                    thisUserIsLoggedIn();
-                   }else{
+                   }else {
                        $(".buttonForm").click(function(){
                         var isvalid = false;
                        for(var i = 0; i < users.length; i++){
                            if( $(".mailForm").val() == users[i].email && $(".passwordForm").val() == users[i].password){
                                thisUserIsLoggedIn();
                                sessionStorage.saveUser = users[i].email;
-                               console.log("heeeej");
                                isvalid = true;
                                break;
-                               }
-
-                           }
-
-                           if(!isvalid) {
+                            }
+                        }
+                        if(!isvalid){
                             alert("glömt ditt lösenord");
                            }
                        });
                    }
-               //                                        Utloggning
+            //        Utloggning
                 $(".loggaUt").click(function(){
                        sessionStorage.clear();
                        location.reload();
-                    
-                
                 });
     
             function thisUserIsLoggedIn(){
@@ -249,8 +211,6 @@ $(".formmain").hide();
             }
     }
 
-
-
     //     ADMIN
 
     $(".adminMeny").hide();
@@ -261,12 +221,10 @@ $(".formmain").hide();
 
     $(".adminLoginB").click(function(){
         if(admin === $(".adminLogin").val() && apass === $(".adminPass").val()){
-            adminIsLoggedIn();
-            console.log("rätt");
+                adminIsLoggedIn();
              }else {
-                console.log("inte rätt")
+                alert("Glömt ditt lösenord?");
              }
-            
          })};
 
          $(".loggaUtAdmin").click(function(){
@@ -287,12 +245,9 @@ $(".formmain").hide();
             $(".kund").html(" ");
 
             for(var i = 0; i < users.length; i++){  
-              
                 $(".mainAdmin").append("<div class='kund'>" + "<h1>" + users[i].email + "<br>" + "</h1>" + "</div>");
                 $(".kund").show();
             }
 
         });
-
-
     });

@@ -383,6 +383,134 @@
         "huvudkategori": 3,
         "underkategori": 12,
         "image": "textil4.jpg"
+    },{
+        "id": 49,
+        "prodName": "Moa Spegel",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 399,
+        "huvudkategori": 4,
+        "underkategori": 13,
+        "image": "spegel1.jpg"
+    },{
+        "id": 50,
+        "prodName": "Mimmi Spegel",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 399,
+        "huvudkategori": 4,
+        "underkategori": 13,
+        "image": "spegel2.jpg"
+    },{
+        "id": 51,
+        "prodName": "Klara Spegel",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 329,
+        "huvudkategori": 4,
+        "underkategori": 13,
+        "image": "spegel3.jpg"
+    },{
+        "id": 52,
+        "prodName": "Molly Spegel",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 599,
+        "huvudkategori": 4,
+        "underkategori": 13,
+        "image": "spegel4.jpg"
+    },{
+        "id": 53,
+        "prodName": "Matta Mattias",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 3939,
+        "huvudkategori": 4,
+        "underkategori": 14,
+        "image": "matta1.jpg"
+    },{
+        "id": 54,
+        "prodName": "Matta Matt",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 393,
+        "huvudkategori": 4,
+        "underkategori": 14,
+        "image": "matta2.jpg"
+    },{
+        "id": 55,
+        "prodName": "Matta Mark",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 399,
+        "huvudkategori": 4,
+        "underkategori": 14,
+        "image": "matta3.jpg"
+    },{
+        "id": 56,
+        "prodName": "Matta Mark",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 399,
+        "huvudkategori": 4,
+        "underkategori": 14,
+        "image": "matta4.jpg"
+    },{
+        "id": 57,
+        "prodName": "Draperi A",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 199,
+        "huvudkategori": 4,
+        "underkategori": 15,
+        "image": "dd1.jpg"
+    },{
+        "id": 58,
+        "prodName": "Draperi B",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 199,
+        "huvudkategori": 4,
+        "underkategori": 15,
+        "image": "dd2.jpg"
+    },{
+        "id": 59,
+        "prodName": "Draperi C",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 299,
+        "huvudkategori": 4,
+        "underkategori": 15,
+        "image": "dd3.jpg"
+    },{
+        "id": 60,
+        "prodName": "Draperi D",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 239,
+        "huvudkategori": 4,
+        "underkategori": 15,
+        "image": "dd4.jpg"
+    },{
+        "id": 61,
+        "prodName": "Handduk I",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 99,
+        "huvudkategori": 4,
+        "underkategori": 16,
+        "image": "hd1.jpg"
+    },{
+        "id": 62,
+        "prodName": "Handduk J",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 99,
+        "huvudkategori": 4,
+        "underkategori": 16,
+        "image": "hd2.jpg"
+    },{
+        "id": 63,
+        "prodName": "Handduk K",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 99,
+        "huvudkategori": 4,
+        "underkategori": 16,
+        "image": "hd3.jpg"
+    },{
+        "id": 64,
+        "prodName": "Handduk L",
+        "prodDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo nulla ac nisi semper porttitor. Nunc vel quam ac nisl convallis ultrices vel et mi. Morbi vulputate metus eu posuere semper. Pellentesque facilisis purus et eleifend congue. Pellentesque lobortis magna vitae pellentesque porttitor. Phasellus ut aliquam ex. Nullam ut venenatis neque, vitae molestie orci.",
+        "prodPrice": 199,
+        "huvudkategori": 4,
+        "underkategori": 16,
+        "image": "hd4.jpg"
     }
 
 ]

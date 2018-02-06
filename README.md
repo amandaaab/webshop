@@ -1,6 +1,6 @@
 # webshop- Homedecor
 
-#Demo: amandabengtsson.wieg17.se/webshop
+#Demo: http://amandabengtsson.wieg17.se/webshop
 
 #Colors:
 Turkos ljus:rgb(42, 119, 136);
